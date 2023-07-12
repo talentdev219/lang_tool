@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="style.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    </head>
+    <body>
+	<div class="main-page">
+		<h3 class="offset-1">Choose dash -, dot •, square , Number</h3>
+	<hr/>
+		<div class="row">
+			<div class="offset-2">
+				<div class="alert alert-primary" id="option_choice">Current choice dot "•"</div>
+			</div>
+			<div class="offset-1 col-3 ">
+				<select class="form-control" name="list_symbol" id="list_choice">
+					<option>dot</option>
+					<option>dash</option>
+					<option>square</option>
+					<option>number</option>
+				</select><br/>
+				<button class="btn btn-primary" id="save"> save </button>
+				</div>
+		</div>
+    </div>
+	</div>
+		<script src="options_handler.js"></script>
+    </body>
+  </html>
